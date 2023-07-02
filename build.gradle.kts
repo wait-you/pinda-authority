@@ -2,6 +2,7 @@ import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
 
 plugins {
     java
+    checkstyle
 }
 
 group = "cn.wenhe9"
@@ -19,6 +20,11 @@ java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
+}
+
+checkstyle {
+    maxWarnings = 0 //最大警告数,即项目里不允许有不符合checkStyle规范的代码存在
+    toolVersion = "10.0"
 }
 
 buildscript {
@@ -103,6 +109,8 @@ allprojects {
         enabled = true
         manifest.attributes["provider"] = "gradle"
     }
+
+
 }
 
 subprojects {

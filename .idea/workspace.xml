@@ -4,26 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;">
-      <change afterPath="$PROJECT_DIR$/pd-auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-auth/auth-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-auth/auth-api/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-auth/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-gateway/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pd-gateway/src/main/java/cn/wenhe9/pinda/gateway/GatewayBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): &quot;设置githooks，保证提交的代码的测试总应该是通过的&quot;">
+      <change afterPath="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pd-core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-auth/auth-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-auth/auth-service/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,12 +111,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "spring.configuration.checksum": "b4fcda7c753124980001809eace96550",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -168,7 +161,7 @@
       <workItem from="1688300543721" duration="47000" />
       <workItem from="1688300594968" duration="69000" />
       <workItem from="1688300667792" duration="155000" />
-      <workItem from="1688300827046" duration="1102000" />
+      <workItem from="1688300827046" duration="3961000" />
     </task>
     <task id="LOCAL-00001" summary="feat(sub): &quot;使用kotlin作为dsl的gradle构建项目，搭建微开发服务环境&quot;">
       <option name="closed" value="true" />
@@ -202,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688300720934</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;feat(core&amp;gateway&amp;auth): &quot;初步建立模块，修改核心模块插件，将插件声明从根配置移到每一个子项目中&quot;">
+      <option name="closed" value="true" />
+      <created>1688302270284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302270284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;feat(sub): &quot;增加gitignore文件，忽略bootstrap-secret.yml&quot;">
+      <option name="closed" value="true" />
+      <created>1688302836804</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688302836804</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +235,9 @@
     <MESSAGE value="feat(sub): &quot;补充声明，项目使用jdk17+springboot3实现&quot;" />
     <MESSAGE value="Revert &quot;feat(sub): &quot;补充声明，项目使用jdk17+springboot3实现&quot;&quot;&#10;&#10;This reverts commit af45d22e" />
     <MESSAGE value="Revert &quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;" />
+    <MESSAGE value="&quot;feat(core&amp;gateway&amp;auth): &quot;初步建立模块，修改核心模块插件，将插件声明从根配置移到每一个子项目中&quot;" />
+    <MESSAGE value="&quot;feat(sub): &quot;增加gitignore文件，忽略bootstrap-secret.yml&quot;" />
+    <MESSAGE value="&quot;feat(sub): &quot;设置githooks，保证提交的代码的测试总应该是通过的&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;feat(sub): &quot;设置githooks，保证提交的代码的测试总应该是通过的&quot;" />
   </component>
 </project>
