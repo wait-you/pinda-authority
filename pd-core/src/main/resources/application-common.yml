@@ -1,0 +1,11 @@
+spring:
+  jackson:
+    date-format: YYYY-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      fail-on-empty-beans: false
+    generator:
+      # 将数字转换为字符串 防止丢失精度
+      write-numbers-as-strings: true
+  main:
+    allow-bean-definition-overriding: true

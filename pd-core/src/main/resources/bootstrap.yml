@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    include: [secret]
+  cloud:
+    nacos:
+      config:
+        server-addr: ${wenhe9.server-addr}:8848
+        namespace: ${wenhe9.nacos.namespace}
+        group: ${spring.application.name}
+        file-extension: yaml
