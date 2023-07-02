@@ -106,9 +106,6 @@ allprojects {
 }
 
 subprojects {
-    apply(plugin = "java")
-    apply(plugin = "org.springframework.boot")
-
     dependencies {
         implementation("org.projectlombok:lombok")
         testImplementation("org.springframework.boot:spring-boot-starter-test")

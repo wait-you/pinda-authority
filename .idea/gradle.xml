@@ -9,7 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/pd-auth" />
+            <option value="$PROJECT_DIR$/pd-auth/auth-api" />
+            <option value="$PROJECT_DIR$/pd-auth/auth-service" />
             <option value="$PROJECT_DIR$/pd-core" />
+            <option value="$PROJECT_DIR$/pd-gateway" />
           </set>
         </option>
       </GradleProjectSettings>

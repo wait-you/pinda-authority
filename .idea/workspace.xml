@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="" />
+    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;">
+      <change afterPath="$PROJECT_DIR$/pd-auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-api/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-gateway/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-gateway/src/main/java/cn/wenhe9/pinda/gateway/GatewayBootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +48,24 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pinda-authority" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pinda-authority" type="f1a62948:ProjectNode" />
+                <item name="pd-gateway" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pinda-authority" type="f1a62948:ProjectNode" />
+                <item name="pd-gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pinda-authority" type="f1a62948:ProjectNode" />
+                <item name="pd-gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -50,6 +88,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,35 +102,48 @@
     </option>
   </component>
   <component name="ProjectId" id="2Rbem0wJ7GYtl4cg9pMMoBFwrmU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;124d114a&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/code/pinda-authority&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b4fcda7c753124980001809eace96550&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/code/pinda-authority",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "b4fcda7c753124980001809eace96550",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\code\pinda-authority" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GatewayBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="pinda-authority.pd-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wenhe9.pinda.gateway.GatewayBootstrap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,6 +167,8 @@
       <workItem from="1688300084252" duration="446000" />
       <workItem from="1688300543721" duration="47000" />
       <workItem from="1688300594968" duration="69000" />
+      <workItem from="1688300667792" duration="155000" />
+      <workItem from="1688300827046" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="feat(sub): &quot;使用kotlin作为dsl的gradle构建项目，搭建微开发服务环境&quot;">
       <option name="closed" value="true" />
@@ -140,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688300337900</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revert &quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;">
+      <option name="closed" value="true" />
+      <created>1688300720934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688300720934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,10 +220,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat(sub): &quot;使用gradle构建项目，搭建微开发服务环境&quot;" />
     <MESSAGE value="feat(sub): &quot;使用kotlin作为dsl的gradle构建项目，搭建微开发服务环境&quot;" />
     <MESSAGE value="feat(sub): &quot;补充声明，项目使用jdk17+springboot3实现&quot;" />
     <MESSAGE value="Revert &quot;feat(sub): &quot;补充声明，项目使用jdk17+springboot3实现&quot;&quot;&#10;&#10;This reverts commit af45d22e" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;feat(sub): &quot;补充声明，项目使用jdk17+springboot3实现&quot;&quot;&#10;&#10;This reverts commit af45d22e" />
+    <MESSAGE value="Revert &quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;feat(sub): &quot;使用kotlin作为dsl使用gradle构建项目，使用Java17 + SpringBoot3，初步搭建项目环境&quot;" />
   </component>
 </project>
