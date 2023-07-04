@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): 权限服务增加配置文件，项目增加静态代码检查&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): web服务器从tomcat替换为undertow&quot;">
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/Swagger2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/SwaggerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/DocketInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/GlobalOperationParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/Markdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pd-core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,38 +123,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/code/pinda-authority&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;50a1f1c0ab8d65416dc7f73dc773ec5e&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "F:/code/pinda-authority/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "50a1f1c0ab8d65416dc7f73dc773ec5e",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\pinda-authority\pd-core\src\main\java\cn\wenhe9\pinda\core\config\swagger" />
       <recent name="F:\code\pinda-authority" />
     </key>
   </component>
@@ -185,7 +194,16 @@
       <workItem from="1688300827046" duration="6835000" />
       <workItem from="1688391622989" duration="229000" />
       <workItem from="1688391875206" duration="67000" />
-      <workItem from="1688391965130" duration="693000" />
+      <workItem from="1688391965130" duration="1324000" />
+      <workItem from="1688437751918" duration="1868000" />
+      <workItem from="1688476835160" duration="731000" />
+      <workItem from="1688481309580" duration="37000" />
+      <workItem from="1688481369386" duration="287000" />
+      <workItem from="1688481679759" duration="122000" />
+      <workItem from="1688481818148" duration="44000" />
+      <workItem from="1688481886989" duration="353000" />
+      <workItem from="1688482765163" duration="193000" />
+      <workItem from="1688482980952" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="feat(sub): &quot;使用kotlin作为dsl的gradle构建项目，搭建微开发服务环境&quot;">
       <option name="closed" value="true" />
@@ -243,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688304974303</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;feat(sub): web服务器从tomcat替换为undertow&quot;">
+      <option name="closed" value="true" />
+      <created>1688395499440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688395499440</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +297,7 @@
     <MESSAGE value="&quot;feat(sub): &quot;增加gitignore文件，忽略bootstrap-secret.yml&quot;" />
     <MESSAGE value="&quot;feat(sub): &quot;设置githooks，保证提交的代码的测试总应该是通过的&quot;" />
     <MESSAGE value="&quot;feat(sub): 权限服务增加配置文件，项目增加静态代码检查&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;feat(sub): 权限服务增加配置文件，项目增加静态代码检查&quot;" />
+    <MESSAGE value="&quot;feat(sub): web服务器从tomcat替换为undertow&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;feat(sub): web服务器从tomcat替换为undertow&quot;" />
   </component>
 </project>
