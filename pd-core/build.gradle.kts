@@ -13,15 +13,9 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-bootstrap")
     implementation("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery")
     implementation("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config")
-    implementation("com.github.xiaoymin:knife4j-spring-boot-starter")
-    implementation("io.springfox:springfox-swagger") {
-        exclude(group = "io.swagger", module = "swagger-models")
-        exclude(group = "io.swagger", module = "swagger-annotations")
-    }
-    implementation("io.springfox:springfox-bean-validators")
+    implementation("com.github.xiaoymin:knife4j-openapi3-jakarta-spring-boot-starter")
     annotationProcessor ("org.springframework.boot:spring-boot-configuration-processor")
     implementation("cn.hutool:hutool-all")
     implementation("org.slf4j:slf4j-api")
     implementation("com.alibaba:fastjson")
-    implementation("com.google.guava:guava")
 }

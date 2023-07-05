@@ -37,7 +37,7 @@ buildscript {
     extra["druidVersion"] = "1.2.18"
     extra["mysqlVersion"] = "8.0.33"
     extra["mybatisPlusVersion"] = "3.5.3"
-    extra["knife4jVersion"] = "3.0.3"
+    extra["knife4jVersion"] = "4.1.0"
     extra["easyCaptchaVersion"] = "1.6.2"
     extra["fastdfsClientVersion"] = "1.27.2"
     extra["qiniuJavaSdkVersion"] = "7.13.1"
@@ -80,6 +80,7 @@ allprojects {
         imports {
             mavenBom("org.springframework.cloud:spring-cloud-dependencies:${property("springCloudVersion")}")
             mavenBom("com.alibaba.cloud:spring-cloud-alibaba-dependencies:${property("springCloudAlibabaVersion")}")
+            mavenBom("com.github.xiaoymin:knife4j-dependencies:${property("knife4jVersion")}")
         }
         dependencies {
             dependency("org.projectlombok:lombok:${property("lombokVersion")}")
@@ -87,13 +88,11 @@ allprojects {
             dependency("eu.bitwalker:UserAgentUtils:${property("bitwalkerVersion")}")
             dependency("com.baomidou:mybatis-plus-boot-starter:${property("mybatisPlusVersion")}")
             dependency("com.alibaba:druid-spring-boot-starter:${property("druidVersion")}")
-            dependency("com.alibaba:druid-spring-boot-starter:${property("druidVersion")}")
             dependency("p6spy:p6spy:${property("p6spyVersion")}")
             dependency("mysql:mysql-connector-java:${property("mysqlVersion")}")
             dependency("net.oschina.j2cache:j2cache-core:${property("j2cacheVersion")}")
             dependency("com.github.tobato:fastdfs-client:${property("fastdfsClientVersion")}")
             dependency("com.qiniu:qiniu-java-sdk:${property("qiniuJavaSdkVersion")}")
-            dependency("com.github.xiaoymin:knife4j-spring-boot-starter:${property("knife4jVersion")}")
             dependency("com.auth0:java-jwt:${property("jjwtVersion")}")
             dependency("com.github.qcloudsms:qcloudsms:${property("qcloudsmsVersion")}")
             dependency("com.baidubce:bce-java-sdk:${property("bceJavaSdkVersion")}")
