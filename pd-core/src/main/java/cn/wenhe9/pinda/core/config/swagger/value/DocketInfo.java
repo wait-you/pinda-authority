@@ -62,6 +62,7 @@ public class DocketInfo {
     /**
      * 排序
      */
+    @Deprecated
     private Integer order = 1;
 
     public String getGroup() {

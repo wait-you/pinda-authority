@@ -22,6 +22,7 @@ public class GlobalOperationParameter {
     /**
      * 指定参数类型
      **/
+    @Deprecated
     private String modelRef = "String";
 
     /**
@@ -44,5 +45,6 @@ public class GlobalOperationParameter {
     /**
      * 排序
      */
+    @Deprecated
     private int order = 1;
 }

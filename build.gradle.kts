@@ -31,7 +31,7 @@ buildscript {
     extra["springBootVersion"] = "3.0.0"
     extra["springCloudVersion"] = "2022.0.3"
     extra["springCloudAlibabaVersion"] = "2022.0.0.0-RC2"
-    extra["lombokVersion"] = "1.18.2"
+    extra["lombokVersion"] = "1.18.28"
     extra["p6spyVersion"] = "3.9.1"
     extra["fastjsonVersion"] = "2.0.33"
     extra["druidVersion"] = "1.2.18"
@@ -49,7 +49,8 @@ buildscript {
     extra["antisamyVersion"] = "1.7.3"
     extra["ip2regionVersion"] = "2.7.0"
     extra["bitwalkerVersion"] = "1.21"
-    extra["guava"] = "32.0.0-jre"
+    extra["guavaVersion"] = "32.0.0-jre"
+    extra["sl4jVersion"] = "2.0.7"
 
     repositories {
         maven(url = "https://maven.aliyun.com/repository/public")
@@ -99,8 +100,9 @@ allprojects {
             dependency("org.owasp.antisamy:antisamy:${property("antisamyVersion")}")
             dependency("com.github.whvcse:easy-captcha:${property("easyCaptchaVersion")}")
             dependency("com.alibaba:fastjson:${property("fastjsonVersion")}")
-            dependency("com.google.guava:guava:${property("guava")}")
+            dependency("com.google.guava:guava:${property("guavaVersion")}")
             dependency("cn.hutool:hutool-all:${property("hutoolVersion")}")
+            dependency("org.slf4j:slf4j-api:${property("sl4jVersion")}")
         }
     }
 
@@ -116,7 +118,11 @@ subprojects {
     dependencies {
         implementation("org.projectlombok:lombok")
         annotationProcessor("org.projectlombok:lombok")
-        testImplementation("org.springframework.boot:spring-boot-starter-test")
+        compileOnly("org.projectlombok:lombok")
+        testImplementation("org.projectlombok:lombok")
+        testImplementation("org.springframework.boot:spring-boot-starter-test") {
+            exclude(group = "org.springframework.boot", module = "spring-boot-starter-logging")
+        }
     }
 
     tasks.test {

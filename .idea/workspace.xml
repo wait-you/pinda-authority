@@ -4,9 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): 更换knife4j依赖，使用bom&quot;">
+    <list default="true" id="ee21adb8-75b8-471e-9caf-d1971690c75d" name="Changes" comment="&quot;feat(sub): ++&quot;">
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/AuthBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/model/CourseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/model/FileResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/model/MapEnumUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/model/PartSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/model/UserSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/Body1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/BodyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/DownLoadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/Job3Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-auth/auth-service/src/main/java/cn/wenhe9/pinda/auth/web/UserOneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-auth/auth-service/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-auth/auth-service/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-auth/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-auth/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/Swagger2Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/Swagger2Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/DocketInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/DocketInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/GlobalOperationParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/value/GlobalOperationParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pd-gateway/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/pd-gateway/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +59,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/pd-gateway">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -34,20 +72,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="pinda-authority" type="f1a62948:ProjectNode" />
-                <item name="pd-core" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pinda-authority" type="f1a62948:ProjectNode" />
-                <item name="pd-core" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pinda-authority" type="f1a62948:ProjectNode" />
-                <item name="pd-core" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="pd-auth" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -66,6 +91,29 @@
                 <item name="pd-gateway" type="2d1252cf:ModuleNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pinda-authority" type="f1a62948:ProjectNode" />
+                <item name="pd-gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="org.springframework.cloud:spring-cloud-starter-gateway:4.0.6" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pinda-authority" type="f1a62948:ProjectNode" />
+                <item name="pd-gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project pd-core" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pinda-authority" type="f1a62948:ProjectNode" />
+                <item name="pd-gateway" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -113,6 +161,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -120,16 +172,16 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "F:/code/pinda-authority/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger",
+    "last_opened_file_path": "F:/code/pinda-authority/pd-gateway/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "50a1f1c0ab8d65416dc7f73dc773ec5e",
     "vue.rearranger.settings.migration": "true"
   },
@@ -139,13 +191,38 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\pinda-authority\pd-gateway\src\main\resources" />
+      <recent name="F:\code\pinda-authority\pd-auth\auth-service\src\main\java\cn\wenhe9\pinda\auth" />
       <recent name="F:\code\pinda-authority\pd-core\src\main\java\cn\wenhe9\pinda\core\config\swagger" />
       <recent name="F:\code\pinda-authority" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthBootstrap">
+    <configuration name="AuthBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pinda-authority.pd-auth.auth-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wenhe9.pinda.auth.AuthBootstrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wenhe9.pinda.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="pinda-authority.pd-gateway.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.wenhe9.pinda.gateway.GatewayBootstrap" />
@@ -153,6 +230,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthBootstrap" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -197,6 +279,10 @@
       <workItem from="1688652776597" duration="15000" />
       <workItem from="1688652853750" duration="1485000" />
       <workItem from="1688696112169" duration="39000" />
+      <workItem from="1688732425856" duration="1211000" />
+      <workItem from="1688820764386" duration="10415000" />
+      <workItem from="1688881044883" duration="4232000" />
+      <workItem from="1688885371845" duration="1932000" />
     </task>
     <task id="LOCAL-00001" summary="feat(sub): &quot;使用kotlin作为dsl的gradle构建项目，搭建微开发服务环境&quot;">
       <option name="closed" value="true" />
@@ -286,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688654857337</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;feat(sub): ++&quot;">
+      <option name="closed" value="true" />
+      <created>1688736243230</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688736243230</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +411,18 @@
     <MESSAGE value="&quot;feat(sub): web服务器从tomcat替换为undertow&quot;" />
     <MESSAGE value="&quot;feat(core): 添加初步的swagger配置&quot;" />
     <MESSAGE value="&quot;feat(sub): 更换knife4j依赖，使用bom&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;feat(sub): 更换knife4j依赖，使用bom&quot;" />
+    <MESSAGE value="&quot;feat(sub): ++&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;feat(sub): ++&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pd-core/src/main/java/cn/wenhe9/pinda/core/config/swagger/Swagger2Configuration.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
