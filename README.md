@@ -3,3 +3,4 @@
 - 使用Gradle管理依赖
 - 不再使用starter，将所有工具类、配置放置于core包
 - 使用最新的springboot3 + jdk17
+- 添加静态代码检查和git提交检测
